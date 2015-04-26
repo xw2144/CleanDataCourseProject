@@ -1,0 +1,5 @@
+column 1: subject: subject ID
+
+column 2: activity: activity name
+
+column 3 - column 81: mean for each variable under each subject and each activity
