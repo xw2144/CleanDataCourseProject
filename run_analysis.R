@@ -35,6 +35,7 @@ mydat_meanstd <- mydat[ , c(1,2,pickid)]
 aa <- mydat_meanstd
 samsung <- aggregate(aa[,3:81],by=list(aa[,1],aa[,2]), mean)
 
+write.table(samsung, "samsung.txt", row.name=FALSE)
 
 
 
